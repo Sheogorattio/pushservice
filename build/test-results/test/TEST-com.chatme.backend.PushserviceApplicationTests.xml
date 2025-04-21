@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.chatme.backend.PushserviceApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-21T00:22:53.967Z" hostname="SHEOGORATTIO" time="0.913">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.chatme.backend.PushserviceApplicationTests" time="0.913"/>
+  <system-out><![CDATA[03:22:51.665 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.chatme.backend.PushserviceApplicationTests]: PushserviceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+03:22:51.801 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.chatme.backend.PushserviceApplication for test class com.chatme.backend.PushserviceApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-04-21T03:22:52.212+03:00  WARN 44124 --- [pushservice] [    Test worker] ory$DuplicateJsonObjectContextCustomizer : 
+
+Found multiple occurrences of org.json.JSONObject on the class path:
+
+	jar:file:/C:/Users/Nopas/.gradle/caches/modules-2/files-2.1/org.json/json/20250107/a1b5f0b5a1ce018b93a691c57ffc7d141b3a10f1/json-20250107.jar!/org/json/JSONObject.class
+	jar:file:/C:/Users/Nopas/.gradle/caches/modules-2/files-2.1/com.vaadin.external.google/android-json/0.0.20131108.vaadin1/fa26d351fe62a6a17f5cda1287c1c6110dec413f/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+
+You may wish to exclude one of them to ensure predictable runtime behavior
+
+2025-04-21T03:22:52.230+03:00  INFO 44124 --- [pushservice] [    Test worker] c.c.backend.PushserviceApplicationTests  : Starting PushserviceApplicationTests using Java 21.0.6 with PID 44124 (started by Nopas in C:\Users\Nopas\eclipse-workspace\pushservice)
+2025-04-21T03:22:52.231+03:00  INFO 44124 --- [pushservice] [    Test worker] c.c.backend.PushserviceApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-04-21T03:22:53.944+03:00  INFO 44124 --- [pushservice] [    Test worker] c.c.backend.PushserviceApplicationTests  : Started PushserviceApplicationTests in 1.987 seconds (process running for 3.242)
+]]></system-out>
+  <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\Nopas\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.15.11\a38b16385e867f59a641330f0362ebe742788ed8\byte-buddy-agent-1.15.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
